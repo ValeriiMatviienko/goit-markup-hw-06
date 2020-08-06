@@ -514,7 +514,7 @@
 
         <div class="foot-form">
           <b class="slogan">Подпишитесь на рассылку</b>
-          <form class="modal-form" action="">
+          <form class="modal-form" action="#">
             <input
               class="input-text"
               type="email"
@@ -532,5 +532,54 @@
         </div>
       </div>
     </footer>
+
+    <div class="dropmodal">
+      <form class="drop-form" action="#">
+        <h2 class="drop-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <div class="drop-wrap">
+          <input
+            class="drop-input"
+            type="text"
+            name="user-name"
+            id="drop-name"
+            placeholder=" "
+          />
+          <label class="drop-label" for="drop-name">Имя</label>
+        </div>
+        <div class="drop-wrap">
+          <input
+            class="drop-input"
+            type="tel"
+            name="user-tel"
+            id="drop-tel"
+            placeholder=" "
+          />
+          <label class="drop-label" for="drop-tel">Телефон</label>
+        </div>
+        <div class="drop-wrap">
+          <input
+            class="drop-input"
+            type="email"
+            name="user-mess"
+            id="drop-mess"
+            placeholder=" "
+          />
+          <label class="drop-label" for="drop-mess">Почта</label>
+        </div>
+        <textarea
+          class="drop-text"
+          name="text-mess"
+          placeholder="Комментарий"
+        ></textarea>
+        <label class="checkbox-label">
+          <input class="drop-checkbox" type="checkbox" value="accept" />
+          <span class="checkbox-text"
+            >Соглашаюсь с рассылкой и принимаю
+            <a href="#">Условия договора</a></span
+          >
+        </label>
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
   </body>
 </html>
